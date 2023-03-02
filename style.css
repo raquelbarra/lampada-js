@@ -1,0 +1,79 @@
+/* Desenvolvido por Raquel Barra - 01/03/2023 - projeto de estudo */
+
+/* Configuração geral */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sala {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: aqua;
+}
+
+.lampada {
+    margin-bottom: 20px;
+}
+
+.menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.listaDeCores {
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.botao-selecao-cor {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Configuração cores */
+
+.opcao-amarela {
+    background-color: yellow;
+}
+
+.opcao-verde {
+    background-color: green;
+}
+
+.opcao-laranja {
+    background-color: orange;
+}
+
+.opcao-azul {
+    background-color: blue;
+}
+
+.selecionado {
+    border: 3px solid antiquewhite;
+}
+
+.txt-amarelo {
+    color: yellow;
+}
+
+.txt-verde {
+    color: green;
+}
+
+.txt-laranja {
+    color: orange;
+}
+
+.txt-azul {
+    color: blue;
+}

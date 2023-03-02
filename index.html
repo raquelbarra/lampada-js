@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicativo lâmpada: acende, apaga e atualiza cor.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Raquel Barra">
+    <title>Lâmpada</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sala">
+        <div id="secao-lampada">
+            <label id="cor-lampada" class="txt-amarelo">
+                <i class="far fa-10x fa-lightbulb" id="lampada"></i>
+            </label>
+        </div>
+        <div class="menu">
+            <i class="fas fa-3x fa-duotone fa-toggle-off" id="interruptor"></i>
+        </div>
+        <div class="configuracao">
+            <div class="listaDeCores">
+                <div class="botao-selecao-cor opcao-amarela selecionado"></div>
+                <div class="botao-selecao-cor opcao-verde"></div>
+                <div class="botao-selecao-cor opcao-laranja"></div>
+                <div class="botao-selecao-cor opcao-azul"></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
