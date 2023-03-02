@@ -21,6 +21,10 @@
     margin-bottom: 20px;
 }
 
+#interruptor {
+    cursor: pointer;
+}
+
 .menu {
     margin-top: 20px;
     margin-bottom: 20px;
